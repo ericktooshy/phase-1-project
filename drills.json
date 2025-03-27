@@ -1,0 +1,52 @@
+{
+    "drills": [
+      {
+        "id": 1,
+        "name": "Cone Dribbling",
+        "skillLevel": "Beginner",
+        "description": "Set up cones in a straight line and practice dribbling through them using both feet.",
+        "duration": 10,
+        "equipment": ["Cones", "Ball"]
+      },
+      {
+        "id": 2,
+        "name": "Passing Squares",
+        "skillLevel": "Beginner",
+        "description": "Form squares with 4 players passing to each other, focusing on accurate passes and first touch.",
+        "duration": 15,
+        "equipment": ["Balls", "Cones"]
+      },
+      {
+        "id": 3,
+        "name": "Shooting Practice",
+        "skillLevel": "Intermediate",
+        "description": "Take shots from different angles and distances, alternating between power and placement.",
+        "duration": 20,
+        "equipment": ["Balls", "Goal"]
+      },
+      {
+        "id": 4,
+        "name": "Possession Game",
+        "skillLevel": "Intermediate",
+        "description": "5v2 keep-away in a small area to improve quick passing and movement.",
+        "duration": 15,
+        "equipment": ["Balls", "Pinnies"]
+      },
+      {
+        "id": 5,
+        "name": "Advanced Juggling",
+        "skillLevel": "Advanced",
+        "description": "Practice juggling with different body parts and challenge yourself with tricks.",
+        "duration": 10,
+        "equipment": ["Ball"]
+      },
+      {
+        "id": 6,
+        "name": "1v1 Attacking",
+        "skillLevel": "Advanced",
+        "description": "Practice beating a defender in 1v1 situations using various moves and feints.",
+        "duration": 20,
+        "equipment": ["Balls", "Cones"]
+      }
+    ]
+  }

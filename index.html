@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Drill Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Football Drill Generator</h1>
+    </header>
+
+    <main>
+        <section class="controls">
+            <div class="filter">
+                <label for="level">Skill Level:</label>
+                <select id="level">
+                    <option value="all">All Levels</option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Advanced">Advanced</option>
+                </select>
+                <button id="filter-btn">Filter Drills</button>
+            </div>
+            <button id="random-btn">Random Drill</button>
+        </section>
+
+        <section id="drills-container">
+            <h2>Training Drills</h2>
+            <div id="drills-list"></div>
+        </section>
+
+        <section id="drill-details" class="hidden">
+            <h2 id="detail-title"></h2>
+            <p><strong>Level:</strong> <span id="detail-level"></span></p>
+            <p><strong>Duration:</strong> <span id="detail-duration"></span> minutes</p>
+            <p><strong>Equipment:</strong> <span id="detail-equipment"></span></p>
+            <p id="detail-description"></p>
+            <button id="close-btn">Close</button>
+            <button id="save-btn">Save Drill</button>
+        </section>
+
+        <section id="saved-drills" class="hidden">
+            <h2>Your Saved Drills</h2>
+            <div id="saved-list"></div>
+            <button id="back-btn">Back to All Drills</button>
+        </section>
+
+        <button id="view-saved">View Saved Drills</button>
+    </main>
+
+    <footer>
+        <p>Football Drill Generator</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
